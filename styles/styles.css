@@ -1,0 +1,70 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  min-height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/headercel.jpg");
+    min-height: 100%;
+  }
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#logo{
+  height: 70px;
+  width: 70px;
+}
+
+#menu{
+  padding-top: 1.5%;
+}
+
+#textoHeader{
+  padding-top: 30%;
+  padding-left: 2%;
+}
+
+#about img {
+
+  height: 60px;
+  width: 60px;
+}
+
+#team img{
+  height: 350px;
+  width: 300px;
+}
+
+#work img{
+  height: 200px;
+  width: 300px;
+}
+
+#clients img{
+  height: 50%;
+  width: 50%;
+}
+
+#creditos{
+  color: black;
+}
+
+#creditos:hover{
+  color: white;
+}
