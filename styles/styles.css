@@ -57,8 +57,16 @@ body, html {
 }
 
 #clients img{
-  height: 50%;
-  width: 50%;
+  height: 90%;
+  width: 90%;
+}
+
+#wrapper .text{
+  visibility: hidden;
+}
+
+#wrapper:hover .text{
+  visibility: visible;
 }
 
 #creditos{
