@@ -14,9 +14,20 @@ body, html {
 }
 
 #textoHeader{
-  padding-top: 30%;
+  padding-top: 350px;
   padding-left: 2%;
 }
+
+#textoHeaderMovil{
+  font-size: 50px;
+}
+@media screen and (max-width: 300px) {
+  #textoHeaderMovil{
+    font-size: 30px;
+    padding-top: 500px;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .bgimg-1 {
@@ -26,12 +37,26 @@ body, html {
     min-height: 100%;
   }
 
-  #textoHeader{
-    padding-top: 400px;
-    padding-left: 2%;
+  #textoHeaderMovil{
+    padding-top: 500px;
+    font-size: 30px;
+
   }
 }
 
+@media screen and (min-height: 1000px) {
+
+  #textoHeaderMovil{
+    padding-top: 800px;
+  }
+}
+
+@media screen and (min-height: 2000px) {
+
+  #textoHeaderMovil{
+    padding-top: 1100px;
+  }
+}
 .w3-bar .w3-button {
   padding: 16px;
 }
