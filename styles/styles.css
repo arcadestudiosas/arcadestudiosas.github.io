@@ -13,12 +13,22 @@ body, html {
   min-height: 100%;
 }
 
+#textoHeader{
+  padding-top: 30%;
+  padding-left: 2%;
+}
+
 @media screen and (max-width: 600px) {
   .bgimg-1 {
     background-position: center;
     background-size: cover;
     background-image: url("../images/headercel.jpg");
     min-height: 100%;
+  }
+
+  #textoHeader{
+    padding-top: 400px;
+    padding-left: 2%;
   }
 }
 
@@ -35,11 +45,6 @@ body, html {
   padding-top: 1.5%;
 }
 
-#textoHeader{
-  padding-top: 30%;
-  padding-left: 2%;
-}
-
 #about img {
 
   height: 60px;
@@ -50,6 +55,23 @@ body, html {
   height: 300px;
   width: 300px;
 }
+
+@media screen and (max-width: 600px) {
+  #team img{
+    height: 300px;
+    width: 300px;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #team img{
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+  }
+}
+
 
 #work img{
   height: 200px;
